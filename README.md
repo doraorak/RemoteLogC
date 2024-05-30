@@ -1,7 +1,7 @@
 ## INFO
 
 RemoteLogC is a modified version of RemoteLog (https://github.com/Muirey03/RemoteLog) by Muirey03 that allows it to be used from .c files.
-As a result, support for NSObjects are dropped.
+As a result, support for NSObjects is dropped.
 
 This is mostly useful when you don't have access to your `printf` outputs, like ios applications without xcode.
 ## Usage
