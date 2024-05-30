@@ -6,7 +6,7 @@ As a result, support for NSObjects are dropped.
 This is mostly useful when you don't have access to your `printf` outputs, like ios applications without xcode.
 ## Usage
 
-RemoteLogC supports most of the format specifiers of `Printf` so it should be very easy to migrate to.
+RemoteLogC supports most of the format specifiers of `printf` so it should be very easy to migrate to.
 
 - Copy `RemoteLogC.h` to `$THEOS/include`
 - Change the ip addresses in the `RemoteLogC.h` file to match your computer's ip address
